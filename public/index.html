@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5f5f7"><title>会员方案 · 独立第三方商城</title><link rel="stylesheet" href="/styles.css"></head>
+<body><header class="nav"><a class="brand" href="#">NOVA<span>会员商城</span></a><nav><a href="#plans">会员方案</a><a href="#compare">方案对比</a><a href="#about">服务说明</a></nav><div class="nav-actions"><button id="themeBtn" class="icon-btn" aria-label="切换主题">◐</button><button id="accountBtn" class="small-btn">登录 / 账户</button></div></header>
+<main><section class="hero"><p class="eyebrow">INDEPENDENT MEMBERSHIP STORE</p><h1>把更多可能，<br><span>留给创造力。</span></h1><p class="hero-copy">清晰透明的月付方案。选择适合自己的使用额度，购买前请先核验服务内容与交付方式。</p><a class="primary" href="#plans">查看会员方案 <span>↗</span></a><div class="hero-note">独立第三方商城 · 非 OpenAI 官方网站</div></section>
+<section id="plans" class="section"><div class="section-head"><div><p class="eyebrow">MEMBERSHIP</p><h2>选择你的方案</h2></div><p>全部为月付展示价<br>以结算前确认信息为准</p></div><div id="plansGrid" class="plans"><div class="loading">正在加载方案…</div></div></section>
+<section id="compare" class="section compare"><p class="eyebrow">COMPARE</p><h2>方案一览</h2><div class="table-wrap"><table><thead><tr><th>方案</th><th>月付价格</th><th>额度说明</th><th>周期</th></tr></thead><tbody id="compareRows"></tbody></table></div><p class="fine">5× / 10× / 20× 为本商城展示用的额度倍数描述，不代表 OpenAI 官方套餐名称或保证额度。具体权益、可用性与交付方式须在购买前核实。</p></section>
+<section id="about" class="section about"><div><p class="eyebrow">PLEASE NOTE</p><h2>透明说明，<br>安心选择。</h2></div><div class="about-copy"><p>本网站为独立第三方商城，与 OpenAI 不存在隶属、代理或官方授权关系（除非经营者另行提供可核验授权）。OpenAI、ChatGPT 及相关名称归其各自权利人所有。</p><p>我们不会要求你提交 ChatGPT 密码、验证码或恢复代码。订单付款状态需由管理员核对实际到账记录后更新；提交订单不等于支付成功，也不保证服务已开通。</p><p>请在确认经营主体、服务来源、退款规则及收款账户归属后再付款。</p></div></section></main>
+<footer><span>NOVA · 独立第三方商城</span><span>© <span id="year"></span> · 非 OpenAI 官方网站</span></footer>
+<div id="modal" class="modal hidden"><div class="modal-card"><button class="close" id="closeModal">×</button><div id="modalContent"></div></div></div>
+<div id="toast" class="toast"></div><script src="/app.js" defer></script></body></html>
